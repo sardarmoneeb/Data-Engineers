@@ -1,0 +1,26 @@
+Emails:
+john.doe@example.com
+jane_smith@domain.co.uk
+
+Phone Numbers:
+2025-10-01 08
+2025-10-02 09
+10
+2025-10-02 09
++1 (555) 123-4567
+555.123.4568
+
+URLs:
+https://example.com/page?ref=abc
+http://localhost:8000/test
+
+Dates:
+2025-10-01
+2025-10-02
+2025-10-02
+
+Times:
+08:15:23
+09:00:00
+09:00:01
+

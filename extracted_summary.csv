@@ -1,0 +1,7 @@
+Email,Phone,URL,Date,Time
+john.doe@example.com,2025-10-01 08,https://example.com/page?ref=abc,2025-10-01,08:15:23
+jane_smith@domain.co.uk,2025-10-02 09,http://localhost:8000/test,2025-10-02,09:00:00
+,"10
+2025-10-02 09",,2025-10-02,09:00:01
+,"+1 (555) 123-4567
+555.123.4568",,,
