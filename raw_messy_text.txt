@@ -1,19 +1,17 @@
 ERROR: 2025-10-01 08:15:23 - Failed to connect to DB (timeout)
-User:  john.doe@example.com   Action: login
+User: john.doe@example.com   Action: login
 ----
 <html><body><h1>Report</h1><p>Sales increased by 5%.</p></body></html>
 
-Todo:   fix,normalize,  remove duplicates
+Todo: fix, normalize, remove duplicates
 
 2025-10-02 09:00:00, "OrderID": 12345, Product: "Widget A", Qty: 10
 2025-10-02 09:00:01, "OrderID": 12345, Product: "Widget A", Qty: 10
 
-NOTE: Customer feedback -> "Great service!!"!!!
-    Follow up needed.
+NOTE: Customer feedback -> "Great service!!"
+Follow up needed.
 
-user:   jane_smith@domain.co.uk    purchased:  3 items
-user:   jane_smith@domain.co.uk    purchased:  3 items
-
+user: jane_smith@domain.co.uk purchased: 3 items
 Price list:
 Apple - $1.00
 Banana - $0.50
@@ -25,15 +23,20 @@ Broken JSON:
 {"id": 1, "name": "Alpha"
 {"id": 2, "name": "Beta"}
 
-Whitespace issues:    lots of    extra   spaces and	tabs
+Whitespace issues: lots of    extra   spaces and	tabs
 
 Contact numbers:
 +1 (555) 123-4567
 555.123.4568
+(555) 987-6543
++92 321 2075057
+0044 123 456 789
 
 URLS:
 https://example.com/page?ref=abc
 http://localhost:8000/test
+https://company.co.uk/login
+http://api.website.io/v1/data
 
 -- LOG END --
 
@@ -42,7 +45,29 @@ name,age,city
 Alice,30,New York
 Bob, ,London
 Charlie,25,
-Alice,30,New York
+David,35,Paris
+Eva,29,Berlin
+Frank,45,New York
+Grace,27,Tokyo
+Henry,31,Toronto
+Isla,33,Madrid
+Jack,28,Sydney
+Kate,26,London
+Leo,42,Chicago
+Mona,36,Dubai
+Nick,40,Rome
+Olivia,22,Paris
+Paul,23,Karachi
+Quinn,25,Bangkok
+Rose,39,Delhi
+Steve,34,Melbourne
+Tina,41,New York
+Uma,30,Singapore
+Victor,38,San Francisco
+Wendy,29,Los Angeles
+Xander,27,Berlin
+Yara,35,Doha
+Zane,32,Cape Town
 >>> RAW DATA END <<<
 
 Random punctuation.....?????!!! --- ===
@@ -52,7 +77,21 @@ this is lowercase
 THIS IS UPPERCASE
 Title Case Line
 
-Empty lines follow:
+ERROR: 2025-10-03 11:45:00 - Missing field 'user_id'
+user: mike.adams@service.com Action: upload file
+2025-10-03 12:00:00, "OrderID": 67890, Product: "Widget B", Qty: 5
+2025-10-04 07:30:30, "OrderID": 98765, Product: "Widget C", Qty: 15
 
+user: linda_rose@company.net purchased: 2 items
+Feedback: "Packaging was damaged."
+Contact: 444-555-6666
+Site: https://support.company.net/tickets
 
-End of file.   
+user: ali.khan@domain.pk purchased: 6 items
+Phone: +92-300-555-9999
+Website: http://shop.domain.pk/deals
+
+INFO: 2025-10-05 18:22:10 - Session timeout warning
+INFO: 2025-10-05 18:23:00 - Reconnected successfully
+
+End of file.
